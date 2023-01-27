@@ -71,7 +71,6 @@ public class Main {
                     System.out.println("Установите облегченную версию для Android");
                 } else {
                     System.out.println("Установите обычную версию для Android");
-
                 }
             }
 
@@ -96,18 +95,13 @@ public class Main {
             }
             if (distance > 60) {
                 deliveryDay++;
-
-                System.out.println("Доставка займет " + deliveryDay);
             }
-            return distance;
+            System.out.println("Доставка займет " + deliveryDay + " днь(я)");
         }
-
         return distance;
     }
 
     public static void task4() {
-        printDeliveryDistance(105);
-
-
+        printDeliveryDistance(95);
     }
 }
