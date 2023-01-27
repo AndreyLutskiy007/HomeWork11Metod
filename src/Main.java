@@ -96,7 +96,7 @@ public class Main {
             if (distance > 60) {
                 deliveryDay++;
             }
-            System.out.println("Доставка займет " + deliveryDay + " днь(я)");
+            System.out.println("Доставка займет " + deliveryDay);
         }
         return distance;
     }
